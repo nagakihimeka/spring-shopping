@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+/*////////////////  共通  ////////////////*/
+
+/*フォーム*/
+input {
+	width: 100%;
+	box-sizing: border-box;
+	line-height: 1.8;
+}
+
+/*aタグ*/
+a {
+	color: #fff;
+}
+
+body {
+	background-color: #EFF0F7;
+	text-align: center;
+	min-width: 900px;
+	margin: 0;
+	}
+	
+main{
+	margin: 0 10%;
+}
+
+/*ボタン*/
+button {
+	background-color: dimgray;
+	color: #fff;
+	border: none;
+	padding: 3px 50px;
+	text-decoration: none;
+}
+
+.table-button {
+	width: 100%;
+	padding: 8px 5px;
+	font-size: 15px;
+}
+
+/*テーブル*/
+table,th,td {
+	border: 1px solid #000;
+	border-collapse:  collapse; 
+}
+	
+table {
+	background-color: #fff;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+th {
+	color: #fff;
+	background-color: dimgray;
+	padding: 5px 10px;
+}
+
+td{
+	color: #000;
+	background-color: #fff;
+	font-weight: bold;
+}
+
+.total-price {
+	text-align: right;
+}
+
+.total-price td {
+	padding-right: 15px;
+	line-height: 2;
+}
+
+
+
+/* ////////////////   header  //////////////// */
+header {
+	color: #fff;
+	background-color: dimgray;
+}
+
+.herder-items {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px 10px 10px;
+	display: flex;
+	align-items: center;
+}
+
+
+/*//////////////// login //////////////// */
+.login {
+	display: inline-block;
+}
+
+.login-title {
+	margin: 45px 0;
+}
+
+.right {
+	text-align: right;
+}
+
+.right p {
+	margin: 25px 0 10px 0;
+}
+
+.login-form {
+	border: #000 solid 1px;
+	background-color: #fff;
+	padding: 20px;
+	padding: 50px 120px 80px 120px;
+	position: relative;
+}
+
+.login-form input {
+	display: block;
+	margin: 10px 0 30px 0;
+	width: 240px;
+}
+
+.login-error {
+	color: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30px;
+}
+/*//////////////// Item ////////////////*/
+
+.category-items {
+	background-color: dimgray;
+	color: #fff;
+	padding-top: 10px;
+	display: flex;
+	padding: 10px 20px 0 20px;
+}
+
+.category-left a {
+	padding-left: 10px;
+}
+
+.category-right{
+	margin-left: auto;
+}
+
+.item-button a {
+	display: block;
+}
+
+.item-id {
+	width: 5%;
+}
+
+.item-name {
+	width: 57%;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.item-price {
+	width: 18%;
+}
+
+.item-button {
+	width: 20%;
+	
+}
+
+/*//////////cart//////////////*/
+.title {
+	text-align: left;
+}
+
+.cart-id {
+	width: 5%;
+}
+
+.cart-name {
+	width: 45%;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.cart-price {
+	width: 10%;
+}
+
+.cart-quantity {
+	width: 10%
+}
+
+.cart-cubtotal {
+	width: 10%
+}
+
+.cart-button {
+	width: 20%;
+}
+
+/*//////////cart//////////////*/
+
+.ordered-message {
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 40px 0;
+	margin-top: 30px;
+}
+.orderNumber {
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/*/////////customer/////////*/
+.customer-table th{
+	width: 30%;
+}
+
+.customer-table input {
+	line-height: 1.8;
+}
+
+/*/////////orderconfirm/////////*/
+.confirm-table th{
+	width: 30%;
+}
+
+.confirm-table td{
+	text-align: left;
+	padding-left: 15px}

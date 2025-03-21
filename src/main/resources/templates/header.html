@@ -1,0 +1,11 @@
+<header>
+		<div class="herder-items">
+			<div class="left">
+				<h1>サンプルショッピング</h1>
+			</div>
+			<div class="right"  th:if="${@account.name}">
+				<p th:text="'こんにちは、' +${@account.name}+ 'さん'"></p>
+				<a href="/logout">ログアウト</a>
+			</div>	
+		</div>
+</header>
